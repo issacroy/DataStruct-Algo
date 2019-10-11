@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+	int i,*p,a[3];
+	printf("Enter three elements\n");
+	for(p=a; p-a<3; p++)
+	{
+		scanf("%d", p);
+	}
+	for(p=a; p-a<3; p++)
+	{
+		printf("%d", *p);
+	}
+	return 0;
+}
